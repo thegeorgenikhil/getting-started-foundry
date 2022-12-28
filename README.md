@@ -42,7 +42,7 @@ forge script script/Counter.s.sol:CounterScript --fork-url http://localhost:8545
 - Deploying contract to testnet
 
 ```bash
-forge create --rpc-url <goerli-testnet-url> --private-key <private-key> src/CrowdFunding.sol:CrowdFunding --etherscan-api-key <etherscan-api-key> --verify
+forge create --rpc-url <goerli-testnet-url> --private-key <private-key> src/Counter.sol:Counter --etherscan-api-key <etherscan-api-key> --verify
 ```
 
 ## Using `cast` to interact with the deployed contract
