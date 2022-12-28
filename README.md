@@ -45,7 +45,7 @@ forge script script/Counter.s.sol:CounterScript --fork-url http://localhost:8545
 forge create --rpc-url <goerli-testnet-url> --private-key <private-key> src/Counter.sol:Counter --etherscan-api-key <etherscan-api-key> --verify
 ```
 
-## Using `cast` to interact with the deployed contract
+## Using `cast` to interact with the deployed contract (anvil)
 
 ### getNumber()
 
